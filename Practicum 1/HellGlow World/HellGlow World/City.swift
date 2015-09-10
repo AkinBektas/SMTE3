@@ -21,7 +21,4 @@ class City {
         self.name = name
         self.population = population
     }
-    func addObject(){
-        glowActs.append(GlowAct(name: "The Bluelight act.", rating: 8, startTime: "19:30"))
-    }
 }
