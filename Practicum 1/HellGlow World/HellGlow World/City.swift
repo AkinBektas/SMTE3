@@ -9,11 +9,19 @@
 import Foundation
 
 class City {
-    let name = "Eindhoven"
-    let population = 220000
+    var name = ""
+    var population = 0
     var glowActs = [GlowAct]()
     func showInfo()
     {
         println("In the city of \(name) there are currently living \(population) people.")
+    }
+    init(name: String, population: Int)
+    {
+        self.name = name
+        self.population = population
+    }
+    func addObject(){
+        glowActs.append(GlowAct(name: "The Bluelight act.", rating: 8, startTime: "19:30"))
     }
 }

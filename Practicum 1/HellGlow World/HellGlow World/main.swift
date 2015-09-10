@@ -8,8 +8,8 @@
 
 import Foundation
 
-let glowactInfo = GlowAct()
-let cityInfo = City()
+var glowactInfo = GlowAct(name: "The Bluelight act.", rating: 8, startTime: "22:00")
+var cityInfo = City(name: "Eindhoven", population: 220000)
 
 glowactInfo.showInfo()
 cityInfo.showInfo()
