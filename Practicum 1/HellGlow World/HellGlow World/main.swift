@@ -9,7 +9,7 @@
 import Foundation
 
 var glowactInfo1 = GlowAct(name: "The Bluelight act.", rating: 8, startTime: "22:00")
-var glowactInfo2 = GlowAct(name: "The Blacklight act.", rating: 10, startTime: "19:03")
+var glowactInfo2 = GlowAct(name: "The Black & White-light act.", rating: 10, startTime: "19:03")
 var cityInfo = City(name: "Eindhoven", population: 220000)
 
 glowactInfo1.showInfo()

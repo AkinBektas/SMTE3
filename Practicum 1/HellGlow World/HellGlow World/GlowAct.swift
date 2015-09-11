@@ -11,7 +11,7 @@ import Foundation
 class GlowAct {
     var name = ""
     var rating = 5
-    var startTime = "sdf"
+    var startTime = ""
     func showInfo()
     {
         println("The act is called \(name) and starts at \(startTime). It is given an avarage rating of \(rating).")
