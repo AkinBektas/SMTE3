@@ -7,7 +7,7 @@
         <!--About-->
         <scene sceneID="Gdq-Zt-tUu">
             <objects>
-                <viewController title="About" id="L7U-eX-l8r" sceneMemberID="viewController">
+                <viewController title="About" id="L7U-eX-l8r" customClass="AboutViewController" customModule="GameList" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FQK-Q7-VSQ"/>
                         <viewControllerLayoutGuide type="bottom" id="QTs-Se-QwG"/>
@@ -51,6 +51,9 @@
                                 <state key="normal" title="Show textfield">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTextfield:" destination="L7U-eX-l8r" eventType="touchUpInside" id="lAH-PL-XEm"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dWw-9H-Nf3">
                                 <rect key="frame" x="112" y="372" width="97" height="30"/>
@@ -62,15 +65,19 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="About" id="qaC-Hp-YWh"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="showTextfield" destination="dWw-9H-Nf3" id="h1S-8f-LQt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ia2-Bc-Xge" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-231" y="479"/>
         </scene>
-        <!--View Controller-->
+        <!--Easter Egg View Controller-->
         <scene sceneID="2XX-kV-jl1">
             <objects>
-                <viewController id="otC-WL-Mqb" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Di-gZ-nPZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="otC-WL-Mqb" customClass="EasterEggViewController" customModule="GameList" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wly-8L-ghn"/>
                         <viewControllerLayoutGuide type="bottom" id="f4B-cS-3aG"/>
@@ -87,20 +94,21 @@
                                 <state key="normal" title="Close">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="closeEasterEgg:" destination="otC-WL-Mqb" eventType="touchUpInside" id="UOU-B2-g5m"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7Di-gZ-nPZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="227" y="479"/>
         </scene>
-        <!--View Controller-->
+        <!--Details View Controller-->
         <scene sceneID="zac-5P-tgt">
             <objects>
-                <viewController id="a0i-9n-YDF" sceneMemberID="viewController">
+                <viewController id="a0i-9n-YDF" customClass="DetailsViewController" customModule="GameList" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bdC-sd-gTF"/>
                         <viewControllerLayoutGuide type="bottom" id="Yc6-h2-d35"/>
@@ -108,6 +116,17 @@
                     <view key="view" contentMode="scaleToFill" id="OTx-3p-kln">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWl-os-eJh">
+                                <rect key="frame" x="41" y="225" width="238" height="30"/>
+                                <state key="normal" title="More details of my favorite CS gun">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Pc1-zT-7zU" kind="presentation" id="6qc-TD-4zL"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="mLp-fa-hAt"/>
@@ -117,28 +136,49 @@
             </objects>
             <point key="canvasLocation" x="581" y="1248"/>
         </scene>
-        <!--View Controller-->
+        <!--More Details View Controller-->
         <scene sceneID="TOl-Zd-qhh">
             <objects>
-                <viewController id="Pc1-zT-7zU" sceneMemberID="viewController">
+                <viewController id="Pc1-zT-7zU" customClass="MoreDetailsViewController" customModule="GameList" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="rE6-Pc-i1L"/>
                         <viewControllerLayoutGuide type="bottom" id="qFE-q6-0Wv"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="l2e-A0-SsH">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ak47.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5tv-jA-38Q">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AK-47" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CDq-LV-TxJ">
+                                <rect key="frame" x="136" y="77" width="49" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fa-Br-6ad">
+                                <rect key="frame" x="140" y="389" width="40" height="30"/>
+                                <state key="normal" title="Close">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeMoreDetails:" destination="Pc1-zT-7zU" eventType="touchUpInside" id="jk9-ph-lPT"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pTZ-ys-ShQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1381" y="1248"/>
+            <point key="canvasLocation" x="1051" y="1248"/>
         </scene>
         <!--General-->
         <scene sceneID="Ub9-9g-GHD">
             <objects>
-                <viewController title="General" id="mO7-cF-Fpa" sceneMemberID="viewController">
+                <viewController title="General" id="mO7-cF-Fpa" customClass="GeneralViewController" customModule="GameList" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Mre-rZ-dUn"/>
                         <viewControllerLayoutGuide type="bottom" id="mjO-aT-FKy"/>
@@ -147,12 +187,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jou Bibliotheek" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZXU-nR-V3G">
-                                <rect key="frame" x="101" y="20" width="119" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cs.png" translatesAutoresizingMaskIntoConstraints="NO" id="id2-9V-B1f">
                                 <rect key="frame" x="35" y="49" width="100" height="100"/>
                             </imageView>
@@ -171,6 +205,12 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cod.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VYa-t9-fx6">
                                 <rect key="frame" x="175" y="331" width="100" height="100"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Library" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZXU-nR-V3G">
+                                <rect key="frame" x="120" y="20" width="81" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <accessibility key="accessibilityConfiguration" label="Test"/>
@@ -225,6 +265,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ak47.jpg" width="800" height="227"/>
         <image name="bf.jpg" width="100" height="100"/>
         <image name="cod.jpg" width="100" height="100"/>
         <image name="cs.png" width="100" height="100"/>
