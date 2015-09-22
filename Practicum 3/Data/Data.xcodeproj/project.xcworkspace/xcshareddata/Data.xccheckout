@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>04B091D0-9873-40D6-BBF9-C3A74F18F4C1</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Data</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>3EA75F632058C86BFC1B84F509220C800A4B7398</key>
 		<string>https://github.com/AkinBektas/SMTE3.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Practicum 3/Data/Data.xcodeproj/project.xcworkspace</string>
+	<string>Practicum 3/Data/Data.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>3EA75F632058C86BFC1B84F509220C800A4B7398</key>

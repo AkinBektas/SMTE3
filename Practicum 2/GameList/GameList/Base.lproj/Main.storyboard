@@ -76,7 +76,6 @@
         <!--Easter Egg View Controller-->
         <scene sceneID="2XX-kV-jl1">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7Di-gZ-nPZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="otC-WL-Mqb" customClass="EasterEggViewController" customModule="GameList" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wly-8L-ghn"/>
@@ -102,6 +101,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Di-gZ-nPZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="227" y="479"/>
         </scene>

@@ -14,12 +14,12 @@
 		E76E265D1BA9EE160053E8E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E76E265C1BA9EE160053E8E5 /* Images.xcassets */; };
 		E76E26601BA9EE160053E8E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E76E265E1BA9EE160053E8E5 /* LaunchScreen.xib */; };
 		E76E266C1BA9EE160053E8E5 /* GameListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76E266B1BA9EE160053E8E5 /* GameListTests.swift */; };
-		E788E19D1BAA1132008AAAE6 /* bf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E788E1971BAA1132008AAAE6 /* bf.jpg */; };
-		E788E19E1BAA1132008AAAE6 /* cod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E788E1981BAA1132008AAAE6 /* cod.jpg */; };
-		E788E19F1BAA1132008AAAE6 /* cs.png in Resources */ = {isa = PBXBuildFile; fileRef = E788E1991BAA1132008AAAE6 /* cs.png */; };
-		E788E1A01BAA1132008AAAE6 /* fifa.png in Resources */ = {isa = PBXBuildFile; fileRef = E788E19A1BAA1132008AAAE6 /* fifa.png */; };
-		E788E1A11BAA1132008AAAE6 /* h1z1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E788E19B1BAA1132008AAAE6 /* h1z1.jpg */; };
-		E788E1A21BAA1132008AAAE6 /* hl3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E788E19C1BAA1132008AAAE6 /* hl3.jpg */; };
+		E7702B001BB1492200FE0184 /* bf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7702AFF1BB1492200FE0184 /* bf.jpg */; };
+		E7702B021BB1494300FE0184 /* cod.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7702B011BB1494300FE0184 /* cod.jpg */; };
+		E7702B041BB1495400FE0184 /* cs.png in Resources */ = {isa = PBXBuildFile; fileRef = E7702B031BB1495400FE0184 /* cs.png */; };
+		E7702B061BB1496300FE0184 /* fifa.png in Resources */ = {isa = PBXBuildFile; fileRef = E7702B051BB1496300FE0184 /* fifa.png */; };
+		E7702B081BB1496F00FE0184 /* h1z1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7702B071BB1496F00FE0184 /* h1z1.jpg */; };
+		E7702B0A1BB1497B00FE0184 /* hl3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7702B091BB1497B00FE0184 /* hl3.jpg */; };
 		E788E1A41BAA1621008AAAE6 /* easteregg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E788E1A31BAA1621008AAAE6 /* easteregg.jpg */; };
 		E788E1AC1BAAB0BC008AAAE6 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E788E1AB1BAAB0BC008AAAE6 /* GeneralViewController.swift */; };
 		E788E1AE1BAAB178008AAAE6 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E788E1AD1BAAB178008AAAE6 /* AboutViewController.swift */; };
@@ -51,12 +51,12 @@
 		E76E26651BA9EE160053E8E5 /* GameListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E76E266A1BA9EE160053E8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E76E266B1BA9EE160053E8E5 /* GameListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListTests.swift; sourceTree = "<group>"; };
-		E788E1971BAA1132008AAAE6 /* bf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bf.jpg; path = ../../../../games/bf.jpg; sourceTree = "<group>"; };
-		E788E1981BAA1132008AAAE6 /* cod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cod.jpg; path = ../../../../games/cod.jpg; sourceTree = "<group>"; };
-		E788E1991BAA1132008AAAE6 /* cs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cs.png; path = ../../../../games/cs.png; sourceTree = "<group>"; };
-		E788E19A1BAA1132008AAAE6 /* fifa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fifa.png; path = ../../../../games/fifa.png; sourceTree = "<group>"; };
-		E788E19B1BAA1132008AAAE6 /* h1z1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = h1z1.jpg; path = ../../../../games/h1z1.jpg; sourceTree = "<group>"; };
-		E788E19C1BAA1132008AAAE6 /* hl3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hl3.jpg; path = ../../../../games/hl3.jpg; sourceTree = "<group>"; };
+		E7702AFF1BB1492200FE0184 /* bf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bf.jpg; sourceTree = "<group>"; };
+		E7702B011BB1494300FE0184 /* cod.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cod.jpg; sourceTree = "<group>"; };
+		E7702B031BB1495400FE0184 /* cs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cs.png; sourceTree = "<group>"; };
+		E7702B051BB1496300FE0184 /* fifa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fifa.png; sourceTree = "<group>"; };
+		E7702B071BB1496F00FE0184 /* h1z1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1z1.jpg; sourceTree = "<group>"; };
+		E7702B091BB1497B00FE0184 /* hl3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hl3.jpg; sourceTree = "<group>"; };
 		E788E1A31BAA1621008AAAE6 /* easteregg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = easteregg.jpg; sourceTree = "<group>"; };
 		E788E1AB1BAAB0BC008AAAE6 /* GeneralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeneralViewController.swift; path = ../GeneralViewController.swift; sourceTree = "<group>"; };
 		E788E1AD1BAAB178008AAAE6 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
@@ -150,13 +150,13 @@
 		E788E1961BAA0F28008AAAE6 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				E7702B091BB1497B00FE0184 /* hl3.jpg */,
+				E7702B071BB1496F00FE0184 /* h1z1.jpg */,
+				E7702B051BB1496300FE0184 /* fifa.png */,
+				E7702B031BB1495400FE0184 /* cs.png */,
+				E7702B011BB1494300FE0184 /* cod.jpg */,
 				E788E1B51BAABC72008AAAE6 /* ak47.jpg */,
-				E788E1971BAA1132008AAAE6 /* bf.jpg */,
-				E788E1981BAA1132008AAAE6 /* cod.jpg */,
-				E788E1991BAA1132008AAAE6 /* cs.png */,
-				E788E19A1BAA1132008AAAE6 /* fifa.png */,
-				E788E19B1BAA1132008AAAE6 /* h1z1.jpg */,
-				E788E19C1BAA1132008AAAE6 /* hl3.jpg */,
+				E7702AFF1BB1492200FE0184 /* bf.jpg */,
 				E788E1A31BAA1621008AAAE6 /* easteregg.jpg */,
 			);
 			name = images;
@@ -242,16 +242,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7702B021BB1494300FE0184 /* cod.jpg in Resources */,
 				E788E1B61BAABC72008AAAE6 /* ak47.jpg in Resources */,
 				E76E265B1BA9EE160053E8E5 /* Main.storyboard in Resources */,
-				E788E19D1BAA1132008AAAE6 /* bf.jpg in Resources */,
+				E7702B041BB1495400FE0184 /* cs.png in Resources */,
 				E76E26601BA9EE160053E8E5 /* LaunchScreen.xib in Resources */,
-				E788E1A11BAA1132008AAAE6 /* h1z1.jpg in Resources */,
-				E788E1A01BAA1132008AAAE6 /* fifa.png in Resources */,
-				E788E19F1BAA1132008AAAE6 /* cs.png in Resources */,
-				E788E1A21BAA1132008AAAE6 /* hl3.jpg in Resources */,
+				E7702B061BB1496300FE0184 /* fifa.png in Resources */,
+				E7702B081BB1496F00FE0184 /* h1z1.jpg in Resources */,
+				E7702B001BB1492200FE0184 /* bf.jpg in Resources */,
+				E7702B0A1BB1497B00FE0184 /* hl3.jpg in Resources */,
 				E788E1A41BAA1621008AAAE6 /* easteregg.jpg in Resources */,
-				E788E19E1BAA1132008AAAE6 /* cod.jpg in Resources */,
 				E76E265D1BA9EE160053E8E5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
